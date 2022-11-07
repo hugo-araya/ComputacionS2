@@ -1,1 +1,1 @@
-TotalesNacionalesResumen.
+print(listaTotal)

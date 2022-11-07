@@ -1,0 +1,7 @@
+ar = open('archivo.txt')
+linea = ar.readline()
+linea = linea.rstrip('\n')
+print(linea)
+linea = ar.readline()
+linea = linea.rstrip('\n')
+print(linea)

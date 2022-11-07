@@ -6,9 +6,9 @@ for linea in accion:
     listaTotal.append(lista)
 print(listaTotal)
 accion.close()
-
-resumen = open('resumen.txt', 'w')
+ordenada = sorted(listaTotal, key = lambda: listaTotal[5])
+print(ordenada)
+resumen = open('resumen4.txt', 'w')
 for lista in listaTotal:
-    promedio = (float(lista[2]) + float(lista[3]))/2
-    resumen.write(lista[0]+','+str(promedio)+'\n')
+    resumen.write(lista[0]+','+lista[5]+'\n')
 resumen.close()

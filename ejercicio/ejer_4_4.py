@@ -22,7 +22,7 @@ def duplicado2(lista):
     return ok
 
 if __name__ == '__main__':
-    lista = [1,2,3]
+    lista = [1,2,3,1]
     # Version 1
     print(duplicado1(lista))
     # Version 2
